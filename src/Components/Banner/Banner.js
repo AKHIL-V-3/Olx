@@ -32,5 +32,6 @@ function Banner() {
     </div>
   );
 }
+// banner exports
 
 export default Banner;
