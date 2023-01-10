@@ -1,0 +1,12 @@
+.adduser__body{
+   
+    padding-top: 80px;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(142, 215, 191);
+    margin-left: 500px;
+       
+}

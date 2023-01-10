@@ -1,0 +1,224 @@
+.username{
+
+    font-size:1.3rem ;
+   margin-right: 40px;
+   text-decoration: underline;
+   
+}
+
+.logoutbutton{
+
+    margin-right: 20px;
+   
+}
+
+.logoutbutton > button{
+
+    background-color: rgb(43, 57, 94);
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+ }
+
+ .logoutbutton > button:hover{
+
+    background-color: rgb(80, 80, 234);
+    color: white;
+ }
+
+.ChildDiv{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.userprofile__body{
+
+    padding-top: 60px;
+}
+
+.userprofile__heading{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: lightgoldenrodyellow;
+    height: 70px;
+    color: black;
+    align-items: center;
+
+}
+.profile_image{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 30px;
+    /* background-image: url(); */
+    background-size: cover;
+    align-items: baseline;
+    position: relative;
+    
+}
+
+.image__onChange{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+
+    background-size: cover;
+    align-items: baseline;
+}
+
+.parent_profileImage{
+
+    display: flex;
+    justify-content: start;
+}
+
+.userprofile_name{
+
+    display: flex;
+    justify-content: start;
+    margin-top: 5px;
+    color: black;
+    
+}
+
+.userIcon{
+
+    font-size: 26px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.userprofile_leftcard{
+
+    width: 400px;
+    height: 500px;
+    background-color: rgb(189, 189, 213);
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.edit__image{
+ 
+
+  margin-top: 160px;
+  margin-left: 90px;
+  color: white;
+    
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid white;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: white;
+    margin-top: 156px;
+    position: absolute;
+    right: 40%;
+    background-color: rgb(105, 88, 88);
+   
+}
+
+.image__upload{
+
+    margin-left: 20px;
+}
+
+
+
+.edit__image > i{
+
+ font-size: 30px;
+
+}
+.user__image{
+
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.userprofile__Description{
+
+    color: black;
+    align-items: center;
+    margin-top: 30px;
+   width: 95%;
+    
+}
+.userprofile__card{
+
+    display: flex;
+    
+}
+
+
+.userprofile__rightcard{
+    
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: rgb(189, 189, 213);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.userName{
+
+    width: 500px;
+    height: 50px;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+
+   
+}
+
+.userName > h4{
+
+    left: 20px;
+    position: absolute;
+}
+.edit_icon{
+
+    font-size: 20px;
+   position: absolute;
+    right: 20px;
+    
+}
+
+.signout{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}

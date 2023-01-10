@@ -1,0 +1,9 @@
+.homeParentDiv{
+
+    overflow-x: hidden;
+}
+
+.homeParentDiv::-webkit-scrollbar{
+
+   display: none;
+}
